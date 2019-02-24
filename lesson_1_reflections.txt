@@ -1,0 +1,30 @@
+The biggest advantage using the diff command vs manually browsing the files
+was simply the fact that I didn't have to sift through thousands of line of code.
+In addition to this, diff was nice enough to show the +/- statements to show weather 
+the code was in the new or old version. Because of this I could first look at just 
+the code that has changed, and see exactly what about it changed.
+
+The Pros of manually choosing a commit is foremost control. I can make a commit after each
+logical step, such as adding a new feature. With automatic control it would most likely autosave
+whith incomplete code (such as saving when I finish typing a line but not a complete statement). 
+On the other hand, the benefit of autosaving features is simply the fact that we are human, and
+tend to forget to do things, such as after changing over 100 lines of code.
+
+Systems like Git allow saving groups of files mainly because when programming
+quite often files depend on each other. For examply if you created a new method
+within a class (where class is a seperate file), and were to then utilize that new 
+method in another file/class, then both current versions would be required. Programs
+like google docs are designed for monotasking, where usually edits dont depend
+much on other files, thus the feature is not needed.
+
+I can use the command git log to view the most recent commmits in order, a short description of what they 
+do, and get a id number from each commit. From that id number I can use git diff followed by that id number,
+to see the exact differences between that version, and the prior version, including what lines were added, 
+and which lines were deleted.  
+
+Using version control will make me more confident to make changes that could break my code because I will first of know 
+that I can revert to previous versions of code. In the past when I've made any code changes, I tend to run
+into the problem where suddenly a bunch of things don't work. By being able to revert, and compare versions to each other
+I can more directly find out exactly what happened, and gain some insight on how to find find balance between the two versions. 
+
+ 

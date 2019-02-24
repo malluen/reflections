@@ -1,0 +1,3 @@
+When initializing a repository a base repo is created, but with no commits.
+This is important in case I don't want to commit all the files
+in the folder. I must manually make the commit.
